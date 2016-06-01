@@ -1,0 +1,24 @@
+/* APP */
+#app {
+  section#home {
+    #wear {
+      border: 1px solid green;
+      height: $spacer_height;
+      vertical-align: middle;
+      ul {
+        font: $font_big;
+        border: 1px solid yellow;
+        width: 33%;
+        display: inline-block;
+        vertical-align: middle;
+        margin-top: 20%;
+
+        transform: translate(0,-50%);
+        li {
+          height: 50px;
+
+        }
+      }
+    }
+  }
+}

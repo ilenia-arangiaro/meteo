@@ -1,0 +1,41 @@
+/* APP */
+#app {
+  section#home {
+
+    #weather{
+      text-align: center;
+      vertical-align: middle;
+      font: $font_big;
+      border: 1px solid green;
+      height: $spacer_height;
+
+      ul{
+        height: 550px;
+        border: 1px solid yellow;
+        vertical-align: middle;
+        margin-top: 20%;
+        transform: translate(0,-50%);
+        li {
+          border: 1px solid red;
+          width:auto;
+          display: inline-flex;
+          vertical-align: middle;
+          margin-left: 50px;
+          #temp{
+            width: 100px;
+            position: absolute;
+            #high, #low{
+              float: left;
+              position: relative;
+            }
+          }
+        }
+      }
+      .icon i {
+        font-size: $spacer*10;
+        margin-top: $spacer*2;
+        margin-bottom: $spacer*2;
+      }
+    }
+  }
+}
