@@ -64,10 +64,12 @@
 
 
                 <div class="slideshow">
-                  <!-- WEATHER -->
+                  <!-- WEATHER  -->
                   <div id="weather">
-                    <ul>
-                      <div class="icon"><i></i></div>
+                      <div class="row">
+                        <div class="col-xs-12 icon"><i></i></div>
+                      </div>
+
 
                       <li><div class="string"></div></li>
                       <li><div class="humidity"></div></li>
@@ -76,30 +78,27 @@
                         <div class="high"></div>
                         <div class="low"></div>
                       </div></li>
-                    </ul>
-                    <!--
-                    <ul id="forecast">
-                    <ul> -->
+
                   </div>
 
 
                   <!-- WEAR -->
-                  <div id="wear">
-                    <ul id="accessories">
-                      <li class="option1">glasses</li>
-                      <li class="option2">umbrella</li>
-                      <li class="option3">cap</li>
-                    </ul>
-                    <ul id="top">
-                      <li class="option1">t-shisrt</li>
-                      <li class="option2">jacket</li>
-                      <li class="option3">light jacket</li>
-                      <li class="option4">k-way</li>
-                    </ul>
-                    <ul id="backpack">
-                      <li class="option1">water-proof</li>
-                      <li class="option2">breathable</li>
-                    </ul>
+                  <div id="wear" class="row">
+                    <div id="accessories" class="col col-md-4">
+                      <div class="option option1">glasses</div>
+                      <div class="option option2">umbrella</div>
+                      <div class="option option3">cap</div>
+                    </div>
+                    <div id="top" class="col col-md-4">
+                      <div class="option option1">t-shisrt</div>
+                      <div class="option option2">jacket</div>
+                      <div class="option option3">divght jacket</div>
+                      <div class="option option4">k-way</div>
+                    </div>
+                    <div id="backpack" class="col col-md-4">
+                      <div class="option option1">water-proof</div>
+                      <div class="option option2">breathable</div>
+                    </div>
                   </div>
 
                 </div>
