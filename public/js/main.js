@@ -11,11 +11,23 @@ function init(){
   })
 
 
-  // on resize
+  // called 1 time on load
   centerElements()
+  adjustSlick()
+  // called on every resize
   $(window).resize(function() {
     centerElements()
+    adjustSlick()
   });
+
+  // ADJUST SLICK
+  function adjustSlick(){
+    var slick_slide_height = window.innerHeight-180;
+    //console.log(slick_slide_height)
+    $(".slick-slide").css({
+      "height": slick_slide_height+"px"
+    })
+  }
 
   // SHAKE EVENT
   var myShakeEvent = new Shake({
@@ -84,7 +96,8 @@ function renderWeather(weather, latitude, longitude) {
 
   $('.slideshow').slick({
     //setting-name: setting-value
-     dots: true
+    //adaptiveHeight: true,
+    dots: true
   });
 
   var my_code = getOurWeatherCode(weather.code)
