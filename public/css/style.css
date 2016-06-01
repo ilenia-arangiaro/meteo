@@ -50,7 +50,9 @@ p {
       #app section#home #weather ul {
         height: 550px;
         border: 1px solid yellow;
-        vertical-align: middle; }
+        vertical-align: middle;
+        margin-top: 20%;
+        transform: translate(0, -50%); }
         #app section#home #weather ul li {
           border: 1px solid red;
           width: auto;
