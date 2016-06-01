@@ -58,8 +58,19 @@ p{
       text-align: center;
       vertical-align: middle;
       font: $font_big;
+      border: 1px solid green;
+      height: $spacer_height;
+
+
 
       ul{
+        height: 550px;
+        border: 1px solid yellow;
+        vertical-align: middle;
+
+
+
+
         li {
           border: 1px solid red;
           width:auto;
@@ -77,19 +88,30 @@ p{
         }
       }
       .icon i {
-        font-size: 4em;
+        font-size: $spacer*10;
+        margin-top: $spacer*2;
+        margin-bottom: $spacer*2;
       }
     }
 
     /* WEAR ------------------------ */
     #wear {
+      border: 1px solid green;
+      height: $spacer_height;
+      vertical-align: middle;
       ul {
+
         font: $font_big;
-        border: 1px solid red;
+        border: 1px solid yellow;
         width: 33%;
         display: inline-block;
         vertical-align: middle;
+        margin-top: 20%;
+
+        transform: translate(0,-50%);
         li {
+          height: 50px;
+
         }
       }
     }
@@ -123,11 +145,12 @@ footer {
   padding: 5px;
   text-align: center;
 
-  a {
+  p {
     color: rgba(255,255,255,0.6);
     padding-left: 15px;
     padding-right: 15px;
-    font-size: 2em;
+    font:$font_bigger;
+    text-transform: uppercase;
 
     &:hover {
       color: $color_light;

@@ -66,7 +66,7 @@
                   <div id="weather">
                     <ul>
                       <div class="icon"><i></i></div>
-                      
+
                       <li><div class="string"></div></li>
                       <li><div class="humidity"></div></li>
                       <li><div class="wind"></div></li>
@@ -116,13 +116,14 @@
             </div>
           </section>
 
+          <!-- footer -->
+
 
           <footer>
-            <a href="./" class="link-home"><i class="fa fa-home"></i></a>
-            <a href="#" class="link-refresh"><i class="fa fa-refresh"></i></a>
-            <a href="#" class="link-info"><i class="fa fa-info"></i></a>
+            <p> il meteo di oggi </p>
           </footer>
         </div>
+
 
 
         <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>

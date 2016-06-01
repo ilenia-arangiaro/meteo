@@ -1,5 +1,6 @@
 
 $spacer: 30px;
+$spacer_height:700px;
 $color_light: white;
 $color_dark: darken($color_light, 50);
 
@@ -8,5 +9,5 @@ $color2: #a05674;
 
 $font_family: 'Quicksand', sans-serif;
 $font_normal: 15px $font_family;
-$font_big: bold 1.5em $font_family;
-$font_bigger: 2em $font_family;
+$font_big:  1.5em $font_family;
+$font_bigger: bold 2em $font_family;
