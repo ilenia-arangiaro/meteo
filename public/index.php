@@ -60,6 +60,8 @@
 
             <div class="row">
               <div class="col-sm-12 centered-holder">
+                <div> <img src="img/logo.png"></div>
+
 
                 <div class="slideshow">
                   <!-- WEATHER -->
