@@ -184,7 +184,7 @@ function renderWeather(weather, latitude, longitude) {
   if(avg_temp > 20) suggestion.top = 1
   if(my_code == "8" || my_code == "10" || my_code == "11") suggestion.top = 4
 
-  $("#wear ul li").hide()
+  $("#wear .option").hide()
   $("#wear #accessories .option"+suggestion.accessories).show()
   $("#wear #top .option"+suggestion.top).show()
   $("#wear #backpack .option"+suggestion.backpack).show()

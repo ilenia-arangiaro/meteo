@@ -64,7 +64,7 @@ footer {
     color: rgba(255, 255, 255, 0.6);
     padding-left: 15px;
     padding-right: 15px;
-    font: bold 2em "Quicksand", sans-serif;
+    font: bold 3em "Quicksand", sans-serif;
     text-transform: uppercase; }
     footer p:hover {
       color: white; }
@@ -95,44 +95,33 @@ footer {
 #app section#home #weather {
   text-align: center;
   vertical-align: middle;
-  font: 1.5em "Quicksand", sans-serif;
-  border: 1px solid green;
-  height: 700px; }
-  #app section#home #weather ul {
-    height: 550px;
-    border: 1px solid yellow;
+  font: 1.5em "Quicksand", sans-serif; }
+  #app section#home #weather ul li {
+    width: auto;
+    display: inline-flex;
     vertical-align: middle;
-    margin-top: 20%;
-    transform: translate(0, -50%); }
-    #app section#home #weather ul li {
-      border: 1px solid red;
-      width: auto;
-      display: inline-flex;
-      vertical-align: middle;
-      margin-left: 50px; }
-      #app section#home #weather ul li #temp {
-        width: 100px;
-        position: absolute; }
-        #app section#home #weather ul li #temp #high, #app section#home #weather ul li #temp #low {
-          float: left;
-          position: relative; }
+    margin-left: 50px; }
+    #app section#home #weather ul li #temp {
+      width: 100px;
+      position: absolute; }
+      #app section#home #weather ul li #temp #high, #app section#home #weather ul li #temp #low {
+        float: left;
+        position: relative; }
   #app section#home #weather .icon i {
     font-size: 300px;
     margin-top: 60px;
     margin-bottom: 60px; }
 
 /* APP */
-#app section#home #wear {
-  border: 1px solid green;
-  height: 700px;
+#app section#home #wear.row {
   vertical-align: middle; }
-  #app section#home #wear ul {
+  #app section#home #wear.row .col {
     font: 1.5em "Quicksand", sans-serif;
-    border: 1px solid yellow;
-    width: 33%;
-    display: inline-block;
-    vertical-align: middle;
     margin-top: 20%;
-    transform: translate(0, -50%); }
-    #app section#home #wear ul li {
-      height: 50px; }
+    transform: translate(0, 50%); }
+    #app section#home #wear.row .col .option {
+      text-align: center; }
+    #app section#home #wear.row .col:nth-child(2) {
+      font: bold 3em "Quicksand", sans-serif; }
+
+/*# sourceMappingURL=style.css.map */
