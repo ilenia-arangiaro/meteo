@@ -1,0 +1,170 @@
+@import 'variables';
+@import 'mixin';
+
+html, body{
+  height: 100%;
+}
+
+body {
+  font: $font_normal;
+  color: $color_light;
+  &.section-home .link-home,
+  &.section-info .link-info{
+    display: none;
+  }
+}
+
+
+p{
+  font-size:50px;
+  line-height: 1.5;
+}
+
+/* BOOTSTRAP */
+.row{
+  margin: 0;
+  height: 100%;
+  .col-sm-12{
+    padding: 0;
+    height: 100%;
+  }
+}
+
+/* APP */
+#app {
+  height: calc(100% - 50px);
+  margin: 0;
+  padding: 0;
+  section {
+    display: none;
+    height: 100%;
+    padding: $spacer*2;
+    .item{
+      margin-bottom: $spacer*2;
+      margin-left: auto;
+      margin-right: auto;
+      text-align: center;
+    }
+  }
+
+  section#home {
+    @include linear-gradient(-45deg, $color1 0%, $color2 100%);
+    p{
+      font-size: 30px;
+    }
+
+    /* WEATHER ------------------------ */
+    #weather{
+      text-align: center;
+      vertical-align: middle;
+      font: $font_big;
+
+      ul{
+        li {
+          border: 1px solid red;
+          width:auto;
+          display: inline-flex;
+          vertical-align: middle;
+          margin-left: 50px;
+          #temp{
+            width: 100px;
+            position: absolute;
+            #high, #low{
+              float: left;
+              position: relative;
+            }
+          }
+        }
+      }
+      .icon i {
+        font-size: 4em;
+      }
+    }
+
+    /* WEAR ------------------------ */
+    #wear {
+      ul {
+        font: $font_big;
+        border: 1px solid red;
+        width: 33%;
+        display: inline-block;
+        vertical-align: middle;
+        li {
+        }
+      }
+    }
+
+  }
+
+}
+
+
+/* CENTER SCRIPT */
+.centered-holder {
+  position: relative;
+}
+
+.centered {
+  position: absolute;
+}
+
+.centered {
+  position: absolute;
+}
+
+
+
+footer {
+  background-color: #333;
+  color: $color_light;
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+  padding: 5px;
+  text-align: center;
+
+  a {
+    color: rgba(255,255,255,0.6);
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: 2em;
+
+    &:hover {
+      color: $color_light;
+    }
+  }
+}
+
+
+
+
+
+
+#img {
+  width: 100%;
+  height: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  position: relative;
+}
+
+.box {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+}
+
+
+#loading{
+  background-color: #666666;
+  margin-left: auto;
+  margin-right: auto;
+
+  text-align: center;
+
+}
+
+#loading-image {
+  background-image: url("../img/loader.gif");
+  background-repeat: no-repeat;
+}
