@@ -39,6 +39,8 @@ p {
     background: linear-gradient(-45deg, #24b795 0%, #a05674 100%); }
     #app section#home p {
       font-size: 30px; }
+    #app section#home .logo {
+      border: 1px solid red; }
 
 /* CENTER SCRIPT */
 .centered-holder {

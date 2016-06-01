@@ -49,6 +49,10 @@ p{
     p{
       font-size: 30px;
     }
+    .logo{
+      border: 1px solid red;
+    }
+
   }
 }
 
@@ -56,6 +60,8 @@ p{
 /* CENTER SCRIPT */
 .centered-holder {
   position: relative;
+
+
 }
 
 .centered {
