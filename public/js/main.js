@@ -338,7 +338,7 @@ function getOurWeatherIconClass(our_code) { // qui mancava our_code come paramtr
       "11": "wi-day-sunny"
     }
     var our_class = "wi "+our_classes[our_code]
-    alert(our_class)
+    //alert(our_class)
     return our_class
 }
 
