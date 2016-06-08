@@ -22,7 +22,7 @@ function init(){
 
   // ADJUST SLICK
   function adjustSlick(){
-    var slick_slide_height = window.innerHeight-180;
+    var slick_slide_height = window.innerHeight-220;
     //console.log(slick_slide_height)
     $(".slick-slide").css({
       "height": slick_slide_height+"px"

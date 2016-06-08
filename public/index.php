@@ -56,27 +56,18 @@
 
           <!-- home -->
           <section id="home">
-
-
-
-                <div id="logo">
-                  <img src="img/logo.png">
-                </div>
-
-              <div class="col-sm-12 centered-holder">
-
-
-
-                <div class="slideshow">
-                  <!-- WEATHER  -->
+            <div id="logo">
+              <img src="img/logo.png" class="">
+            </div>
+            <div class="col-sm-12 centered-holder">
+              <div class="slideshow">
+                <!-- WEATHER  -->
                   <div id="weather">
-                      <div class="row">
-                        <div class="col-xs-12 icon"><i></i></div>
-                        </div>
-
-                        <div class="string"></div>
-
-                      <ul>
+                    <div class="row">
+                      <div class="col-xs-12 icon"><i></i></div>
+                    </div>
+                    <div class="string"></div>
+                    <ul>
 
                         <li><div class="temp">
                           <div id="high-low"></div>
@@ -122,24 +113,6 @@
               </div>
             </div>
           </section>
-
-          <!-- info -->
-          <section id="info">
-            <div class="row">
-              <div class="col-sm-12 centered-holder">
-                <div class="centered">
-                  <p>This is the info section</p>
-                </div>
-              </div>
-            </div>
-          </section>
-
-          <!-- footer -->
-
-
-          <footer>
-            <p>  </p>
-          </footer>
         </div>
 
 

@@ -11,3 +11,9 @@ $font_family: 'Quicksand', sans-serif;
 $font_normal: 15px $font_family;
 $font_big:  1.5em $font_family;
 $font_bigger: bold 3em $font_family;
+
+
+$breakpoint_small: 468px;
+$breakpoint_smartphone: 768px;
+$breakpoint_tablet: 992px;
+$breakpoint_desktop: 1200px;

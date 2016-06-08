@@ -1,0 +1,20 @@
+
+
+#app {
+  section#home {
+    #logo{
+      img {
+        width: 250px;
+        @media screen and (min-width: $breakpoint_small) {width: 60%;}
+        @media screen and (min-width: $breakpoint_smartphone) {width: auto;}
+      }
+    }
+    #weather{
+      .icon {
+        font-size: 100px;
+        @media screen and (min-width: $breakpoint_small) {font-size: 200px;}
+        @media screen and (min-width: $breakpoint_smartphone) {font-size: 250px;}
+      }
+    }
+  }
+}
