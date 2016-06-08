@@ -58,11 +58,11 @@
           <section id="home">
 
 
-            <div class="row">
-              <div id="logo" class="col-md-8 col-md-offset-4">
-                <div>
-                  <img src="img/logo.png"></div>
-              </div>
+
+                <div id="logo">
+                  <img src="img/logo.png">
+                </div>
+
               <div class="col-sm-12 centered-holder">
 
 
