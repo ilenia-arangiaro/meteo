@@ -340,15 +340,15 @@ function getOurWeatherIconClass(our_code) { // qui mancava our_code come paramtr
     var our_classes = {
       "1": "wi-day-sunny",
       "2": "wi-day-sunny",
-      "3": "wi-day-sunny",
-      "4": "wi-day-sunny",
-      "5": "wi-day-sunny",
-      "6": "wi-day-sunny",
-      "7": "wi-day-sunny",
-      "8": "wi-day-sunny",
-      "9": "wi-day-sunny",
-      "10": "wi-day-sunny",
-      "11": "wi-day-sunny"
+      "3": "wi-night-clear",
+      "4": "wi-day-cloudy",
+      "5": "wi-night-alt-cloudy",
+      "6": "wi-windy",
+      "7": "wi-strong-wind",
+      "8": "wi-sleet",
+      "9": "wi-snowflake-cold",
+      "10": "wi-snow",
+      "11": "wi-thunderstorm"
     }
     var our_class = "wi "+our_classes[our_code]
     //alert(our_class)
