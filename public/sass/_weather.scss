@@ -7,7 +7,9 @@
       vertical-align: middle;
       font: $font_big;
       ul{
+
         li {
+          border: 1px solid red;
           width:auto;
           display: inline-flex;
           vertical-align: middle;
@@ -20,6 +22,9 @@
               position: relative;
             }
           }
+        .description-weather{
+          border: 1px solid red;
+        }
         }
       }
       .icon i {

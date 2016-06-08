@@ -59,7 +59,7 @@
 
 
             <div class="row">
-              <div id="logo" class="col-md-8 col-md-offset-4"> 
+              <div id="logo" class="col-md-8 col-md-offset-4">
                 <div>
                   <img src="img/logo.png"></div>
               </div>
@@ -83,6 +83,10 @@
                         <div class="low"></div>
                       </div></li>
 
+                      <div id="description-weather">
+                        <p>il meteo di oggi</p>
+                      </div>
+
                   </div>
 
 
@@ -103,6 +107,11 @@
                       <div class="option option1">water-proof</div>
                       <div class="option option2">breathable</div>
                     </div>
+
+                    <div class="description">
+                      <p>come mi preparo</p>
+                    </div>
+
                   </div>
 
                 </div>
@@ -125,7 +134,7 @@
 
 
           <footer>
-            <p> il meteo di oggi </p>
+            <p>  </p>
           </footer>
         </div>
 

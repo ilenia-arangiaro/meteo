@@ -98,6 +98,7 @@ footer {
   vertical-align: middle;
   font: 1.5em "Quicksand", sans-serif; }
   #app section#home #weather ul li {
+    border: 1px solid red;
     width: auto;
     display: inline-flex;
     vertical-align: middle;
@@ -108,6 +109,8 @@ footer {
       #app section#home #weather ul li #temp #high, #app section#home #weather ul li #temp #low {
         float: left;
         position: relative; }
+    #app section#home #weather ul li .description-weather {
+      border: 1px solid red; }
   #app section#home #weather .icon i {
     font-size: 300px;
     margin-top: 60px;
@@ -124,5 +127,3 @@ footer {
       text-align: center; }
     #app section#home #wear.row .col:nth-child(2) {
       font: bold 3em "Quicksand", sans-serif; }
-
-/*# sourceMappingURL=style.css.map */
