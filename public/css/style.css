@@ -1,5 +1,6 @@
 html, body {
-  height: 100%; }
+  height: 100%;
+  cursor: e-resize; }
 
 body {
   font: 15px "Quicksand", sans-serif;
@@ -26,8 +27,7 @@ p {
   padding: 0; }
   #app section {
     display: none;
-    height: 100%;
-    padding: 60px; }
+    height: 100%; }
     #app section .item {
       margin-bottom: 60px;
       margin-left: auto;
@@ -101,7 +101,7 @@ footer {
 
 /* SLICK */
 .slick-prev:before, .slick-next:before {
-  font-size: 50px; }
+  display: none; }
 
 /* APP */
 #app section#home #weather {
@@ -163,12 +163,3 @@ footer {
   @media screen and (min-width: 768px) {
     #app section#home #weather .icon {
       font-size: 250px; } }
-
-.slick-prev:before, .slick-next:before {
-  font-size: 50px; }
-  @media screen and (min-width: 468px) {
-    .slick-prev:before, .slick-next:before {
-      display: none; } }
-  @media screen and (min-width: 768px) {
-    .slick-prev:before, .slick-next:before {
-      display: none; } }

@@ -1,5 +1,6 @@
 html, body{
   height: 100%;
+  cursor: e-resize;
 }
 
 body {
@@ -35,7 +36,7 @@ p{
   section {
     display: none;
     height: 100%;
-    padding: $spacer*2;
+    
     .item{
       margin-bottom: $spacer*2;
       margin-left: auto;
@@ -140,7 +141,7 @@ footer {
 
 /* SLICK */
 .slick-prev:before, .slick-next:before{
-  font-size: 50px;
+  display: none;
 }
 .slick-slide {
 
