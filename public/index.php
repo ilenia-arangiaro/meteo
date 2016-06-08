@@ -63,24 +63,38 @@
               <div class="slideshow">
                 <!-- WEATHER  -->
                   <div id="weather">
+
                     <div class="row">
-                      <div class="col-xs-12 icon"><i></i></div>
+                      <div class="col-xs-12 icon">
+                        <i></i>
+                      </div>
                     </div>
-                    <div class="string"></div>
+
+                    <div class="string">
+                    </div>
+
                     <ul>
 
-                        <li><div class="temp">
-                          <div id="high-low"></div>
+                      <li>
+                        <div class="temp">
+                          <div id="high-low">
+                          </div>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="humidity">
+                        </div>
+                      </li>
+                      <li>
+                        <div class="wind">
+                        </div>
+                      </li>
 
-                        </div></li>
-                        <li><div class="humidity"></div></li>
-                        <li><div class="wind"></div></li>
+                    </ul>
 
-                      </ul>
-
-                      <div id="description-weather">
-                        <p>il meteo di oggi</p>
-                      </div>
+                    <div id="description-weather">
+                      <p>il meteo di oggi</p>
+                    </div>
 
                   </div>
 

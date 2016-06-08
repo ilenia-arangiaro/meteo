@@ -110,8 +110,7 @@ footer {
   font: 1.5em "Quicksand", sans-serif; }
   #app section#home #weather #string {
     border: 1px solid red; }
-  #app section#home #weather .description-weather {
-    margin-top: 30px;
+  #app section#home #weather #description-weather {
     border: 1px solid red;
     text-transform: uppercase; }
   #app section#home #weather ul {
@@ -144,8 +143,9 @@ footer {
     #app section#home #wear.row .col:nth-child(2) {
       font: bold 3em "Quicksand", sans-serif;
       transform: translate(0%, -15%); }
-#app section#home .description-wear {
-  border: 1px solid yellow; }
+#app section#home #description-wear {
+  border: 1px solid yellow;
+  text-align: center; }
 
 #app section#home #logo img {
   width: 250px; }
