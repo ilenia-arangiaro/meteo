@@ -163,3 +163,12 @@ footer {
   @media screen and (min-width: 768px) {
     #app section#home #weather .icon {
       font-size: 250px; } }
+
+.slick-prev:before, .slick-next:before {
+  font-size: 50px; }
+  @media screen and (min-width: 468px) {
+    .slick-prev:before, .slick-next:before {
+      display: none; } }
+  @media screen and (min-width: 768px) {
+    .slick-prev:before, .slick-next:before {
+      display: none; } }
