@@ -12,8 +12,13 @@
         }
         &:nth-child(2){
           font: $font_bigger;
+          transform: translate(0%,-15%);
         }
       }
+    }
+    .description-weather{
+      border: 1px solid yellow;
+
     }
   }
 }

@@ -74,14 +74,15 @@
                         <div class="col-xs-12 icon"><i></i></div>
                       </div>
 
-
-                      <li><div class="string"></div></li>
-                      <li><div class="humidity"></div></li>
-                      <li><div class="wind"></div></li>
-                      <li><div class="temp">
-                        <div class="high"></div>
-                        <div class="low"></div>
-                      </div></li>
+                      <ul>
+                        <li><div class="string"></div></li>
+                        <li><div class="humidity"></div></li>
+                        <li><div class="wind"></div></li>
+                        <li><div class="temp">
+                          <div class="high"></div>
+                          <div class="low"></div>
+                        </div></li>
+                      </ul>
 
                       <div id="description-weather">
                         <p>il meteo di oggi</p>
@@ -108,7 +109,7 @@
                       <div class="option option2">breathable</div>
                     </div>
 
-                    <div class="description">
+                    <div id="description-wear">
                       <p>come mi preparo</p>
                     </div>
 

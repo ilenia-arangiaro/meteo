@@ -40,6 +40,8 @@ p {
     #app section#home p {
       font-size: 30px; }
     #app section#home .logo {
+      margin-left: 50%;
+      transform: translate(-50%, 0%);
       border: 1px solid red; }
 
 /* CENTER SCRIPT */
@@ -110,7 +112,8 @@ footer {
         float: left;
         position: relative; }
     #app section#home #weather ul li .description-weather {
-      border: 1px solid red; }
+      border: 1px solid red;
+      text-transform: uppercase; }
   #app section#home #weather .icon i {
     font-size: 300px;
     margin-top: 60px;
@@ -126,4 +129,7 @@ footer {
     #app section#home #wear.row .col .option {
       text-align: center; }
     #app section#home #wear.row .col:nth-child(2) {
-      font: bold 3em "Quicksand", sans-serif; }
+      font: bold 3em "Quicksand", sans-serif;
+      transform: translate(0%, -15%); }
+#app section#home .description-weather {
+  border: 1px solid yellow; }
