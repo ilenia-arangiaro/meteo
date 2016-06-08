@@ -106,9 +106,9 @@ function renderWeather(weather, latitude, longitude) {
   $("#weather .image").addClass("weather-"+my_code)
   $("#weather .string").text(my_string)
   $("#weather .humidity").text(weather.humidity+"%")
-  $("#weather .wind").text(weather.wind.speed+" m/s, "+weather.wind.direction)
-  $("#weather .temp .high").text(weather.high+"°")
-  $("#weather .temp .low").text(weather.low+"°")
+  $("#weather .wind").text(weather.wind.speed+ weather.units.speed)
+  $("#weather .temp #high-low").text(weather.high+"°"+"/"+weather.low+"°")
+
 
   var icon_class = getOurWeatherIconClass(my_code);
   $("#weather .icon i").addClass(icon_class)

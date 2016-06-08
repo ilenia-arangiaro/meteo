@@ -72,16 +72,19 @@
                   <div id="weather">
                       <div class="row">
                         <div class="col-xs-12 icon"><i></i></div>
-                      </div>
+                        </div>
+
+                        <div class="string"></div>
 
                       <ul>
-                        <li><div class="string"></div></li>
+
+                        <li><div class="temp">
+                          <div id="high-low"></div>
+
+                        </div></li>
                         <li><div class="humidity"></div></li>
                         <li><div class="wind"></div></li>
-                        <li><div class="temp">
-                          <div class="high"></div>
-                          <div class="low"></div>
-                        </div></li>
+
                       </ul>
 
                       <div id="description-weather">
