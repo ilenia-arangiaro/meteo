@@ -42,13 +42,7 @@ p {
     #app section#home #logo {
       text-align: center; }
       #app section#home #logo img {
-        width: 200px; }
-        @media screen and (min-width: 480px) {
-          #app section#home #logo img {
-            width: 60%; } }
-        @media screen and (min-width: 768px) {
-          #app section#home #logo img {
-            width: auto; } }
+        margin-top: 30px; }
 
 /* CENTER SCRIPT */
 .centered-holder {
@@ -134,18 +128,23 @@ footer {
 /* APP */
 #app section#home #wear.row {
   vertical-align: middle; }
+  #app section#home #wear.row #description-wear {
+    border: 1px solid yellow;
+    width: 100%;
+    height: 50px;
+    position: absolute; }
+    #app section#home #wear.row #description-wear p {
+      position: relative; }
   #app section#home #wear.row .col {
     font: 1.5em "Quicksand", sans-serif;
     margin-top: 20%;
-    transform: translate(0, 50%); }
+    transform: translate(0, 50%);
+    border: 1px solid green; }
     #app section#home #wear.row .col .option {
       text-align: center; }
     #app section#home #wear.row .col:nth-child(2) {
       font: bold 3em "Quicksand", sans-serif;
       transform: translate(0%, -15%); }
-#app section#home #description-wear {
-  border: 1px solid yellow;
-  text-align: center; }
 
 #app section#home #logo img {
   width: 250px; }

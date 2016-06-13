@@ -52,10 +52,9 @@ p{
     }
     #logo{
       text-align: center;
+
       img {
-        width: 200px;
-        @media screen and (min-width: 480px) {width: 60%;}
-        @media screen and (min-width: 768px) {width: auto;}
+        margin-top: $spacer;
       }
     }
 
