@@ -163,8 +163,8 @@
           $(document).ready(function(){
             init()
             showSection("loading")
-            showLoadingMessage("loading...")
             getPosition()
+
           })
         </script>
     </body>

@@ -7,12 +7,12 @@
       vertical-align: middle;
       font: $font_big;
     #string{
-      border: 1px solid red;
+      @include debug;
 
     }
     #description-weather{
-      
-      border: 1px solid red;
+
+      @include debug;
       text-transform: uppercase;
     }
       ul{
@@ -22,11 +22,11 @@
         transform: translate(-2%,0%);
 
         li {
-          border: 1px solid red;
+          @include debug;
           width:auto;
           display: inline-flex;
           vertical-align: middle;
-          margin-left: 50px;
+          //margin-left: 50px;
           #temp{
             width: 100px;
             position: absolute;

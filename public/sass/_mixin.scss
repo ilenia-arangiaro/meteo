@@ -9,3 +9,11 @@
   background: -webkit-linear-gradient(legacy-direction($direction), $color-stops);
   background: linear-gradient($direction, $color-stops);
 }
+
+
+@mixin debug($color:red) {
+   @if $debug == true {
+     border: 1px solid $color;
+   } @else {
+   }
+}
