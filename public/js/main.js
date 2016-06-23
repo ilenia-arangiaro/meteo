@@ -98,6 +98,7 @@ function renderWeather(weather, latitude, longitude) {
     //setting-name: setting-value
     //adaptiveHeight: true,
     infinite: false,
+    //adaptiveHeight: true,
     dots: true
   });
 
