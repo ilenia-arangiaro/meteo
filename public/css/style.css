@@ -1,3 +1,7 @@
+* {
+  outline: none;
+  transition: all .5s; }
+
 html, body {
   height: 100%;
   cursor: url(http://image000.flaticon.com/icons/png/512/99/99171.png), e-resize; }
@@ -21,14 +25,12 @@ p {
 
 /* APP */
 #app {
-  border: 1px solid red;
   height: 100%;
   margin: 0;
   padding: 0; }
   #app section {
     display: none;
-    height: 100%;
-    border: 1px solid red; }
+    height: 100%; }
     #app section .item {
       margin-bottom: 60px;
       margin-left: auto;
@@ -105,10 +107,7 @@ footer {
   text-align: center;
   vertical-align: middle;
   font: 1.5em "Quicksand", sans-serif; }
-  #app section#home #weather #string {
-    border: 1px solid red; }
   #app section#home #weather #description-weather {
-    border: 1px solid red;
     text-transform: uppercase; }
   #app section#home #weather ul {
     text-align: center;
@@ -116,7 +115,6 @@ footer {
     margin-right: auto;
     transform: translate(-2%, 0%); }
     #app section#home #weather ul li {
-      border: 1px solid red;
       width: auto;
       display: inline-flex;
       vertical-align: middle; }
@@ -128,23 +126,20 @@ footer {
     margin-bottom: 60px; }
 
 /* APP */
-#app section#home #wear.row {
-  vertical-align: middle; }
-  #app section#home #wear.row #description-wear {
-    border: 1px solid yellow;
-    width: 100%;
-    height: 50px;
-    position: absolute; }
-    #app section#home #wear.row #description-wear p {
-      position: relative; }
-  #app section#home #wear.row .col {
-    font: 1.5em "Quicksand", sans-serif;
-    border: 1px solid green; }
-    #app section#home #wear.row .col .option {
-      text-align: center; }
-    #app section#home #wear.row .col:nth-child(2) {
-      font: bold 3em "Quicksand", sans-serif;
-      transform: translate(0%, -15%); }
+#app section#home #wear .row #description-wear {
+  text-align: center; }
+#app section#home #wear .row .col {
+  font: 1.5em "Quicksand", sans-serif;
+  vertical-align: middle;
+  padding-top: 50px; }
+  #app section#home #wear .row .col .option {
+    text-align: center; }
+    #app section#home #wear .row .col .option img {
+      display: block;
+      margin-left: auto;
+      margin-right: auto; }
+  #app section#home #wear .row .col:nth-child(2) {
+    font: bold 3em "Quicksand", sans-serif; }
 
 #app section#home #logo img {
   width: 250px; }
@@ -162,3 +157,11 @@ footer {
   @media screen and (min-width: 768px) {
     #app section#home #weather .icon {
       font-size: 250px; } }
+#app section#home #wear .option img {
+  width: 80px; }
+  @media screen and (min-width: 468px) {
+    #app section#home #wear .option img {
+      width: 150px; } }
+  @media screen and (min-width: 768px) {
+    #app section#home #wear .option img {
+      width: 250px; } }

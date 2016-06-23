@@ -16,5 +16,14 @@
         @media screen and (min-width: $breakpoint_smartphone) {font-size: 250px;}
       }
     }
+    #wear{
+      .option {
+        img {
+          width: 80px;
+          @media screen and (min-width: $breakpoint_small) {width: 150px;}
+          @media screen and (min-width: $breakpoint_smartphone) {width: 250px;}
+        }
+      }
+    }
   }
 }

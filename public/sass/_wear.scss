@@ -1,32 +1,34 @@
 /* APP */
 #app {
   section#home {
-    #wear.row {
-      vertical-align: middle;
-    #description-wear{
-        @include debug(yellow);
-        width: 100%;
-        height: 50px;
-        position: absolute;
-      p{
-          position: relative;
+    #wear{
+      .row {
 
-        }
-
-
-      }
-
-      .col {
-        font: $font_big;
-        //margin-top: 20%;
-        //transform: translate(0,50%);
-        @include debug(green);
-        .option {
+        #description-wear{
+          @include debug(yellow);
           text-align: center;
+          p{
+          }
         }
-        &:nth-child(2){
-          font: $font_bigger;
-          transform: translate(0%,-15%);
+
+        .col {
+          font: $font_big;
+          vertical-align: middle;
+          padding-top:50px;
+          //margin-top: 20%;
+          //transform: translate(0,50%);
+          @include debug(green);
+          .option {
+            text-align: center;
+            img {
+              display: block;
+              @include centered;
+            }
+          }
+          &:nth-child(2){
+            font: $font_bigger;
+            //transform: translate(0%,-15%);
+          }
         }
       }
     }

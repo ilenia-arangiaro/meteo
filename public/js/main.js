@@ -97,6 +97,7 @@ function renderWeather(weather, latitude, longitude) {
   $('.slideshow').slick({
     //setting-name: setting-value
     //adaptiveHeight: true,
+    infinite: false,
     dots: true
   });
 

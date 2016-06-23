@@ -1,3 +1,8 @@
+* {
+   outline: none;
+   transition: all .5s;
+}
+
 html, body{
   height: 100%;
   cursor: url(http://image000.flaticon.com/icons/png/512/99/99171.png), e-resize;
@@ -41,8 +46,7 @@ p{
     @include debug;
     .item{
       margin-bottom: $spacer*2;
-      margin-left: auto;
-      margin-right: auto;
+      @include centered;
       text-align: center;
     }
   }
@@ -127,8 +131,7 @@ footer {
 
 #loading{
   background-color: #666666;
-  margin-left: auto;
-  margin-right: auto;
+  @include centered;
   text-align: center;
   font-size: 4em;
   padding-top: 30px;
