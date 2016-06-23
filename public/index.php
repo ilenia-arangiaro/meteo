@@ -102,19 +102,19 @@
                   <!-- WEAR -->
                   <div id="wear" class="row">
                     <div id="accessories" class="col col-md-4">
-                      <div class="option option1"><img src="occhiali.png">glasses</div>
-                      <div class="option option2"><img src="umbrella.png"><p>umbrella</p></div>
-                      <div class="option option3"><img src="berretto.png">cap</div>
+                      <div class="option option1"><img src="img/occhiali.png">glasses</div>
+                      <div class="option option2"><img src="img/umbrella.png"><p>umbrella</p></div>
+                      <div class="option option3"><img src="img/berretto.png">cap</div>
                     </div>
                     <div id="top" class="col col-md-4">
-                      <div class="option option1"><img src="t-shirt.png">t-shisrt</div>
-                      <div class="option option2"><img src="maglioni.png">jacket</div>
-                      <div class="option option3"><img src="cardigan.png">divght jacket</div>
-                      <div class="option option4"><img src="jacket.png">k-way</div>
+                      <div class="option option1"><img src="img/t-shirt.png">t-shisrt</div>
+                      <div class="option option2"><img src="img/maglioni.png">jacket</div>
+                      <div class="option option3"><img src="img/cardigan.png">divght jacket</div>
+                      <div class="option option4"><img src="img/jacket.png">k-way</div>
                     </div>
                     <div id="backpack" class="col col-md-4">
-                      <div class="option option1"><img src="valigetta.png">water-proof</div>
-                      <div class="option option2"><img src="zaino.png">breathable</div>
+                      <div class="option option1"><img src="img/valigetta.png">water-proof</div>
+                      <div class="option option2"><img src="img/zaino.png">breathable</div>
                     </div>
 
                     <div id="description-wear">
