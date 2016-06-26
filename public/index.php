@@ -103,26 +103,26 @@
                   <div id="wear">
                     <div class="row">
                       <div id="accessories" class="col col-xs-4">
-                        <div class="option option1"><img src="img/occhiali.png">glasses</div>
+                        <div class="option option1"><img src="img/occhiali.png"><p>glasses</p></div>
                         <div class="option option2"><img src="img/umbrella.png"><p>umbrella</p></div>
-                        <div class="option option3"><img src="img/berretto.png">cap</div>
+                        <div class="option option3"><img src="img/berretto.png"><p>cap</p></div>
                       </div>
                       <div id="top" class="col col-xs-4">
-                        <div class="option option1"><img src="img/t-shirt.png">t-shisrt</div>
-                        <div class="option option2"><img src="img/maglioni.png">jacket</div>
-                        <div class="option option3"><img src="img/cardigan.png">divght jacket</div>
-                        <div class="option option4"><img src="img/jacket.png">k-way</div>
+                        <div class="option option1"><img src="img/t-shirt.png"><p>t-shisrt</p></div>
+                        <div class="option option2"><img src="img/maglioni.png"><p>jacket</p></div>
+                        <div class="option option3"><img src="img/cardigan.png"><p>divght jacket</p></div>
+                        <div class="option option4"><img src="img/jacket.png"><p>k-way</p></div>
                       </div>
                       <div id="backpack" class="col col-xs-4">
-                        <div class="option option1"><img src="img/valigetta.png">water-proof</div>
-                        <div class="option option2"><img src="img/zaino.png">breathable</div>
+                        <div class="option option1"><img src="img/valigetta.png"><p>water proof</p></div>
+                        <div class="option option2"><img src="img/zaino.png"><p>breathable</p></div>
                       </div>
                     </div>
 
                     <div class="row">
                       <div class="col col-xs-12">
                         <div id="description-wear">
-                          <p>come mi preparo</p>
+                          come mi preparo
                         </div>
                       </div>
                     </div>

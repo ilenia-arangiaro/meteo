@@ -53,6 +53,7 @@ p{
 
   section#home {
     @include linear-gradient(-45deg, $color1 0%, $color2 100%);
+    //background-image: url(C:\xampp\htdocs\meteo\public\img\sfondo.tif);
     p{
       font-size: 30px;
     }

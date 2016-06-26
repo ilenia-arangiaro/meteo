@@ -69,7 +69,7 @@ footer {
     color: rgba(255, 255, 255, 0.6);
     padding-left: 15px;
     padding-right: 15px;
-    font: bold 3em "Quicksand", sans-serif;
+    font: bold 2em "Quicksand", sans-serif;
     text-transform: uppercase; }
     footer p:hover {
       color: white; }
@@ -110,39 +110,47 @@ footer {
   text-align: center;
   vertical-align: middle;
   font: 1.5em "Quicksand", sans-serif; }
+  #app section#home #weather .string {
+    text-transform: uppercase;
+    font-size: 15px "Quicksand", sans-serif; }
   #app section#home #weather #description-weather {
-    text-transform: uppercase; }
+    text-transform: uppercase;
+    margin-top: 60px; }
   #app section#home #weather ul {
     text-align: center;
     margin-left: auto;
     margin-right: auto;
-    transform: translate(-2%, 0%); }
+    padding: 0 !important; }
     #app section#home #weather ul li {
       width: auto;
       display: inline-flex;
-      vertical-align: middle; }
+      vertical-align: middle;
+      margin-left: 10px;
+      margin-right: 10px; }
       #app section#home #weather ul li #temp {
         width: 100px;
         position: absolute; }
   #app section#home #weather .icon i {
-    margin-top: 60px;
+    margin-top: 90px;
     margin-bottom: 60px; }
 
 /* APP */
 #app section#home #wear .row #description-wear {
-  text-align: center; }
-#app section#home #wear .row .col {
+  text-align: center;
+  text-transform: uppercase;
+  margin-top: 90px;
+  font-size: 30px; }
+#app section#home #wear .row .col-xs-4 {
   font: 1.5em "Quicksand", sans-serif;
+  text-transform: uppercase;
   vertical-align: middle;
-  padding-top: 50px; }
-  #app section#home #wear .row .col .option {
+  margin-top: 90px; }
+  #app section#home #wear .row .col-xs-4 .option {
     text-align: center; }
-    #app section#home #wear .row .col .option img {
+    #app section#home #wear .row .col-xs-4 .option img {
       display: block;
       margin-left: auto;
       margin-right: auto; }
-  #app section#home #wear .row .col:nth-child(2) {
-    font: bold 3em "Quicksand", sans-serif; }
 
 #app section#home #logo img {
   width: 250px; }
@@ -160,11 +168,46 @@ footer {
   @media screen and (min-width: 768px) {
     #app section#home #weather .icon {
       font-size: 250px; } }
-#app section#home #wear .option img {
+#app section#home #wear .row #accessories img {
+  width: 50px;
+  margin-top: 30px; }
+  @media screen and (min-width: 468px) {
+    #app section#home #wear .row #accessories img {
+      width: 100px; } }
+  @media screen and (min-width: 768px) {
+    #app section#home #wear .row #accessories img {
+      width: 200px; } }
+#app section#home #wear .row #top img {
   width: 80px; }
   @media screen and (min-width: 468px) {
-    #app section#home #wear .option img {
+    #app section#home #wear .row #top img {
       width: 150px; } }
   @media screen and (min-width: 768px) {
-    #app section#home #wear .option img {
-      width: 250px; } }
+    #app section#home #wear .row #top img {
+      width: 300px; } }
+#app section#home #wear .row #backpack img {
+  width: 50px;
+  margin-top: 20px; }
+  @media screen and (min-width: 468px) {
+    #app section#home #wear .row #backpack img {
+      width: 100px; } }
+  @media screen and (min-width: 768px) {
+    #app section#home #wear .row #backpack img {
+      width: 200px; } }
+#app section#home #wear .row #description-wear {
+  font-size: 30px;
+  margin-top: 130px; }
+  @media screen and (min-width: 468px) {
+    #app section#home #wear .row #description-wear {
+      margin-top: 90px; } }
+  @media screen and (min-width: 768px) {
+    #app section#home #wear .row #description-wear {
+      margin-top: 90px; } }
+#app section#home #wear .row .option p {
+  font-size: 20px; }
+  @media screen and (min-width: 468px) {
+    #app section#home #wear .row .option p {
+      font-size: 20px; } }
+  @media screen and (min-width: 768px) {
+    #app section#home #wear .row .option p {
+      font-size: 30px; } }

@@ -4,17 +4,24 @@
     #wear{
       .row {
 
+
         #description-wear{
           @include debug(yellow);
           text-align: center;
-          p{
-          }
+          text-transform: uppercase;
+          margin-top: 90px;
+          font-size: 30px;
+
         }
 
-        .col {
+
+
+
+        .col-xs-4 {
           font: $font_big;
+          text-transform: uppercase;
           vertical-align: middle;
-          padding-top:50px;
+          margin-top:$spacer*3;
           //margin-top: 20%;
           //transform: translate(0,50%);
           @include debug(green);
@@ -25,10 +32,7 @@
               @include centered;
             }
           }
-          &:nth-child(2){
-            font: $font_bigger;
-            //transform: translate(0%,-15%);
-          }
+        
         }
       }
     }
